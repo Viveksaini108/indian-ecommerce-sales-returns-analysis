@@ -25,8 +25,9 @@ with data. Guesses are free — I wanted numbers.
 
 ## A quick, honest note about the data
 
-This dataset is **made by me with Python** (`generate_data.py`, seed 42) —
-it is not a real company's data, and I am not going to pretend it is. What
+This dataset is **synthetic sample data, made by me with Python**
+(`generate_data.py`, seed 42) — it is not a real company's data, and I am
+not going to pretend it is. What
 I did was build it to behave like real Indian e-commerce: fashion comes
 back for size issues, COD orders behave differently from prepaid ones,
 October–November festival sales spike, and a few cities get slow delivery.
