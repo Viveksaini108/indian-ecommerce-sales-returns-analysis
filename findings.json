@@ -1,0 +1,307 @@
+{
+  "raw_rows": 10045,
+  "clean_rows": 9920,
+  "duplicates_removed": 45,
+  "rows_dropped_no_price": 80,
+  "date_range": [
+    "2025-01-01",
+    "2025-12-28"
+  ],
+  "orders_by_status": {
+    "Delivered": 7934,
+    "Returned": 1394,
+    "Cancelled": 592
+  },
+  "overall_return_rate_pct": 14.9,
+  "cancel_rate_pct": 6.0,
+  "total_revenue_kept_inr": 11577318,
+  "total_profit_inr": 2404928,
+  "overall_margin_pct": 20.8,
+  "return_rate_by_category_pct": {
+    "Fashion": 23.4,
+    "Home & Kitchen": 14.7,
+    "Sports": 12.7,
+    "Electronics": 11.9,
+    "Beauty": 10.2,
+    "Grocery": 5.5
+  },
+  "return_rate_by_payment_pct": {
+    "COD": 18.3,
+    "NetBanking": 13.7,
+    "Card": 12.7,
+    "UPI": 12.4
+  },
+  "cod_return_rate_pct": 18.3,
+  "prepaid_return_rate_pct": 12.7,
+  "return_rate_by_city_pct": {
+    "Patna": 17.7,
+    "Jaipur": 17.6,
+    "Kochi": 17.3,
+    "Hyderabad": 16.0,
+    "Chennai": 15.6,
+    "Kolkata": 15.4,
+    "Lucknow": 15.1,
+    "Indore": 14.7,
+    "Mumbai": 14.6,
+    "Bengaluru": 14.1,
+    "Surat": 14.1,
+    "Ahmedabad": 14.0,
+    "Pune": 13.5,
+    "Delhi": 13.3
+  },
+  "worst_return_city": {
+    "name": "Patna",
+    "return_rate_pct": 17.7,
+    "avg_delivery_days": 5.8
+  },
+  "best_return_city": {
+    "name": "Delhi",
+    "return_rate_pct": 13.3
+  },
+  "profit_by_category_inr": {
+    "Electronics": 1210604,
+    "Home & Kitchen": 460753,
+    "Fashion": 221157,
+    "Grocery": 206424,
+    "Beauty": 178438,
+    "Sports": 127552
+  },
+  "margin_by_category_pct": {
+    "Beauty": 23.4,
+    "Electronics": 26.3,
+    "Fashion": 8.9,
+    "Grocery": 30.1,
+    "Home & Kitchen": 19.9,
+    "Sports": 17.6
+  },
+  "orders_by_category": {
+    "Fashion": 2852,
+    "Electronics": 2376,
+    "Home & Kitchen": 1802,
+    "Beauty": 1126,
+    "Grocery": 979,
+    "Sports": 785
+  },
+  "top_return_reason": {
+    "reason": "Size issue",
+    "share_pct": 27.1
+  },
+  "return_reason_share_pct": {
+    "Size issue": 27.1,
+    "Quality not as expected": 20.6,
+    "Damaged": 14.0,
+    "Changed mind": 12.3,
+    "Wrong item": 10.5,
+    "Late delivery": 9.4,
+    "Not recorded": 6.1
+  },
+  "discount_bands": {
+    "0\u201310%": {
+      "orders": 1930,
+      "orders_share_pct": 19.5,
+      "return_rate_pct": 10.2,
+      "avg_profit_inr": 465.5,
+      "total_profit_inr": 898483
+    },
+    "10\u201325%": {
+      "orders": 4934,
+      "orders_share_pct": 49.7,
+      "return_rate_pct": 13.9,
+      "avg_profit_inr": 277.7,
+      "total_profit_inr": 1370101
+    },
+    "25\u201340%": {
+      "orders": 2804,
+      "orders_share_pct": 28.3,
+      "return_rate_pct": 19.3,
+      "avg_profit_inr": 58.1,
+      "total_profit_inr": 163002
+    },
+    "40%+": {
+      "orders": 252,
+      "orders_share_pct": 2.5,
+      "return_rate_pct": 23.4,
+      "avg_profit_inr": -105.8,
+      "total_profit_inr": -26658
+    }
+  },
+  "delivery_bucket_return_rate_pct": {
+    "1\u20132 days": 14.5,
+    "3\u20134 days": 14.2,
+    "5\u20136 days": 16.2,
+    "7+ days": 17.7
+  },
+  "monthly": {
+    "2025-01": {
+      "orders": 646,
+      "revenue_inr": 764109,
+      "profit_inr": 177302,
+      "returns": 96
+    },
+    "2025-02": {
+      "orders": 580,
+      "revenue_inr": 662073,
+      "profit_inr": 149418,
+      "returns": 76
+    },
+    "2025-03": {
+      "orders": 724,
+      "revenue_inr": 890765,
+      "profit_inr": 205641,
+      "returns": 93
+    },
+    "2025-04": {
+      "orders": 724,
+      "revenue_inr": 895757,
+      "profit_inr": 201108,
+      "returns": 107
+    },
+    "2025-05": {
+      "orders": 808,
+      "revenue_inr": 993221,
+      "profit_inr": 225369,
+      "returns": 97
+    },
+    "2025-06": {
+      "orders": 676,
+      "revenue_inr": 806940,
+      "profit_inr": 181537,
+      "returns": 92
+    },
+    "2025-07": {
+      "orders": 800,
+      "revenue_inr": 921167,
+      "profit_inr": 205542,
+      "returns": 119
+    },
+    "2025-08": {
+      "orders": 756,
+      "revenue_inr": 873140,
+      "profit_inr": 189924,
+      "returns": 116
+    },
+    "2025-09": {
+      "orders": 909,
+      "revenue_inr": 1111008,
+      "profit_inr": 249590,
+      "returns": 140
+    },
+    "2025-10": {
+      "orders": 1269,
+      "revenue_inr": 1335794,
+      "profit_inr": 194449,
+      "returns": 165
+    },
+    "2025-11": {
+      "orders": 1179,
+      "revenue_inr": 1316301,
+      "profit_inr": 203709,
+      "returns": 163
+    },
+    "2025-12": {
+      "orders": 849,
+      "revenue_inr": 1007043,
+      "profit_inr": 221339,
+      "returns": 130
+    }
+  },
+  "worst_category_payment_combos": [
+    {
+      "category": "Fashion",
+      "payment_mode": "COD",
+      "orders": 1174,
+      "profit_inr": 47460,
+      "avg_profit_inr": 40.4
+    },
+    {
+      "category": "Fashion",
+      "payment_mode": "NetBanking",
+      "orders": 236,
+      "profit_inr": 22797,
+      "avg_profit_inr": 96.6
+    },
+    {
+      "category": "Fashion",
+      "payment_mode": "Card",
+      "orders": 497,
+      "profit_inr": 51700,
+      "avg_profit_inr": 104.0
+    },
+    {
+      "category": "Fashion",
+      "payment_mode": "UPI",
+      "orders": 945,
+      "profit_inr": 99201,
+      "avg_profit_inr": 105.0
+    },
+    {
+      "category": "Beauty",
+      "payment_mode": "COD",
+      "orders": 483,
+      "profit_inr": 56237,
+      "avg_profit_inr": 116.4
+    }
+  ],
+  "worst_products": [
+    {
+      "product": "Gym Gloves",
+      "orders": 155,
+      "profit_inr": 11057
+    },
+    {
+      "product": "Men's Cotton T-Shirt",
+      "orders": 495,
+      "profit_inr": 16222
+    },
+    {
+      "product": "Yoga Mat 6mm",
+      "orders": 168,
+      "profit_inr": 16990
+    },
+    {
+      "product": "Sunscreen SPF 50",
+      "orders": 203,
+      "profit_inr": 17355
+    },
+    {
+      "product": "Herbal Shampoo",
+      "orders": 211,
+      "profit_inr": 18244
+    }
+  ],
+  "best_products": [
+    {
+      "product": "Smart Watch",
+      "orders": 411,
+      "profit_inr": 360312
+    },
+    {
+      "product": "Headphones",
+      "orders": 416,
+      "profit_inr": 272164
+    },
+    {
+      "product": "Mixer Grinder",
+      "orders": 312,
+      "profit_inr": 216993
+    },
+    {
+      "product": "Wireless Earbuds",
+      "orders": 364,
+      "profit_inr": 208837
+    },
+    {
+      "product": "Bluetooth Speaker",
+      "orders": 393,
+      "profit_inr": 187590
+    }
+  ],
+  "returns_total": 1394,
+  "return_logistics_cost_inr": 250920,
+  "cod_orders_delivered": 3046,
+  "assumptions": {
+    "product_cost_pct_of_selling_price": 62,
+    "return_logistics_inr_per_return": 180,
+    "cod_fee_inr_per_delivered_cod_order": 45
+  }
+}
